@@ -1,0 +1,106 @@
+$text-font-family: 'Roboto', sans-serif;
+$orange-color: rgb(217, 133, 85);
+$off-white: rgb(242, 242, 242);
+
+
+body {
+    margin: 0;
+    background-color: $off-white;
+    font-family: $text-font-family;
+}
+
+header {
+    height: 228px;
+    background: #082B59;
+    border-bottom-style: double;
+    border-bottom-color: $orange-color;
+    border-bottom-width: 12px;
+}
+
+main {
+    font-family: $text-font-family;
+    width: 50%;
+    margin: 0 auto;
+    background-color: $off-white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: $off-white;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #131D26;
+}
+
+.center {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: $text-font-family;
+    margin: 50px;
+    text-align: center;
+}
+
+.img2 {
+    display: block;
+    width: 40%;
+    margin: 0 auto
+}
+
+.pourover {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.buttonrules {
+    width: 200px;
+    height: 20px;
+    background: $orange-color;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+footer {
+    background-color: #082B59;
+    color: white;
+    padding: 0rem;
+    text-align: center;
+    border-top: 10px double $orange-color;
+    margin-top: 0rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer a {
+    color: $off-white;
+    font-size: 2rem;
+    display: block;
+    margin: 0rem 1rem 1rem
+}
